@@ -3,6 +3,7 @@
       include "db/db.php";
       include "model/article.php";
       include "controller/articlecontroller.php";
+      $articlecontroller = new ArticleController();
 ?>
 
 <!doctype html>
